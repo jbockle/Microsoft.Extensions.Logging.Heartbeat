@@ -1,6 +1,8 @@
 ﻿using System;
+using Microsoft.Extensions.Logging.Heartbeat;
 
-namespace Microsoft.Extensions.Logging.Heartbeat
+// ReSharper disable once CheckNamespace
+namespace Microsoft.Extensions.Logging
 {
     public static class LoggerExtensions
     {
